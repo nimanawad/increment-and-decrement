@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 50%;
+    margin: 250px auto;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container h1 {
+    font-size: 100px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.container  .btn1
+{
+    font-size: 18px;
+    padding: 7px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #780000;
+    color: aliceblue;
+}
+
+.container  .btn2
+{
+    font-size: 18px;
+    padding: 7px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #03045e;
+    color: aliceblue;
+}
+
+.container .savediv{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .savediv .savebtn{
+    margin-top: 10px;
+    font-size: 15px;
+    padding: 7px 30px;
+    border: none;
+    cursor: pointer;
+    background-color: #386641;
+    color: aliceblue;
+}
